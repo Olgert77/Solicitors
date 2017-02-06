@@ -6,7 +6,7 @@ $generalFontSize: 12px;
 $generalColor: #000;
 
 // desktop container width
-$desktopContainerWidth: 1040px;
+$desktopContainerWidth: 1060px;
 // desktop header hight
 $desktopHeaderHight: 80px;
 
@@ -15,7 +15,14 @@ $desktopHeaderHight: 80px;
 $bodyBg: #fff;
 // general orange color
 $generalOrange: #ef6223;
+$generalBlue: #30436b;
 // general orange hover
 $generalOrangeHover: #d0551e;
 // general form element text color
 $formControlTextColor: #7e878d; 
+// general color for simple text
+$simpleTextColor: #5a6464;
+// grey bg
+$greyBg: #f6f8f8;
+//blue bg
+$blueBg: $generalBlue;
