@@ -115,3 +115,33 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 99;
+    background: transparent;
+    border: none;
+    color: transparent;
+    height: 22px;
+    width: 14px;
+    padding: 0;
+    margin-top: -11px;
+}
+/*.slick-prev{
+    left: 0px;
+    margin-left: -60px;
+}
+.slick-next{
+    right: 0;
+    margin-right: -60px;
+}*/
+.slick-prev{
+    background: url('../img/left-arrow-22-ic.png') no-repeat top center;
+    position: absolute;
+    left: -60px;
+    }
+.slick-next{
+    background: url('../img/right-arrow-22-ic.png') no-repeat top center;
+    position: absolute;
+    right: -60px;
+    }

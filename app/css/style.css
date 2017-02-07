@@ -376,20 +376,16 @@ input[type="checkbox"] {
 
 .carousel-block {
   height: 57px;
+  line-height: 57px;
   border: 1px solid #e2e6e7; }
   .carousel-block .services-slider a {
     color: #ef6223;
-    font-size: 16px; }
+    font-size: 16px;
+    font-weight: 600; }
     .carousel-block .services-slider a a:hover {
       color: #30436b; }
-  .carousel-block .slick-prev {
-    background: url("../img/left-arrow-22-ic.png") no-repeat top center;
-    position: absolute;
-    left: -60px; }
-  .carousel-block .slick-next {
-    background: #fff url("../img/right-arrow-22-ic.png") no-repeat top center;
-    position: absolute;
-    right: -60px; }
+    .carousel-block .services-slider a a:hover {
+      color: #30436b; }
 
 .category-wrap {
   padding: 60px 0 75px 0;
@@ -522,4 +518,5 @@ input[type="checkbox"] {
   .more-option-form .option-form-nav li a {
     padding: 0 10px; }
   .more-option-form .option-form-nav li a:hover {
-    color: #ef6223; }
+    color: #7e878d;
+    font-size: 16px; }
