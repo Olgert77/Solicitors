@@ -115,7 +115,7 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-.slick-arrow {
+/*.slick-arrow {
     position: absolute;
     top: 50%;
     z-index: 99;
@@ -126,23 +126,57 @@
     width: 14px;
     padding: 0;
     margin-top: -11px;
-}
-/*.slick-prev{
-    left: 0px;
-    margin-left: -60px;
-}
-.slick-next{
-    right: 0;
-    margin-right: -60px;
 }*/
 .slick-prev{
+   left: -60px;
+transform: translateY(-50%) rotate(-135deg);
+}
+.slick-next{
+   right: -60px;
+transform: translateY(-50%) rotate(45deg);
+}
+/*.slick-prev{
     background: url('../img/left-arrow-22-ic.png') no-repeat top center;
     position: absolute;
     left: -60px;
+    @media (max-width: 1199px){
+        left: 0;
+        
     }
+    }
+    
 .slick-next{
     background: url('../img/right-arrow-22-ic.png') no-repeat top center;
     position: absolute;
     right: -60px;
+    @media (max-width: 1199px){
+        right: 0;
     }
-    
+}*/
+
+.slick-arrow{
+color: transparent;
+position: absolute;
+top: 50%;
+width: 20px;
+height: 20px;
+padding: 0;
+background: transparent;
+border-top: 3px solid #ef6223;
+border-right: 3px solid #ef6223;
+}
+.slick-prev{
+   left: -60px;
+   transform: translateY(-50%) rotate(-135deg);
+   @media (max-width: 1199px){
+    left: 0;       
+   }
+  }
+
+.slick-next{
+   right: -60px;
+   transform: translateY(-50%) rotate(45deg);
+   @media (max-width: 1199px){
+    right: 0;       
+   }
+}
