@@ -4,6 +4,12 @@
 	width: $desktopContainerWidth;
 	margin:0 auto;
 	padding: 0 10px;
+	@media (max-width: 1074px){
+		width: $mediumDeviceContainerWidth;
+	}
+	@media (max-width: 1023px){
+		width: $fullWidthContainerWidth;
+	}
 }
 .row{
 	margin: 0 -10px;
@@ -65,6 +71,10 @@ input[type="checkbox"]{
 	padding: 27px 0;
 	color: $simpleTextColor;
 	border-bottom: 1px solid #e4ebec;
+	@media (max-width: 1023px){
+		font-size: 16px;
+		text-align: center;
+	}
 }
 // standard button
 .btn{
@@ -76,6 +86,10 @@ input[type="checkbox"]{
 	text-align: center;
 	font-size: 16px;
 	padding: 0 25px;
+	@media (max-width: 767px){
+		font-size: 14px;
+		padding: 0 15px;
+		}
 	&.white-btn{
 		border-color: #fff;
 		color: #fff;
