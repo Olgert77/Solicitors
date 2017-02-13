@@ -1,6 +1,6 @@
 
 $('.services-slider').slick({
-  slidesToShow: 6,
+  slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: false,
   centerMode: true,

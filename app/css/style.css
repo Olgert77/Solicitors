@@ -220,6 +220,9 @@ input[type="checkbox"] {
     .btn {
       font-size: 14px;
       padding: 0 15px; } }
+  @media (max-width: 479px) {
+    .btn {
+      padding: 0 13px; } }
   .btn.white-btn {
     border-color: #fff;
     color: #fff; }
@@ -246,11 +249,20 @@ input[type="checkbox"] {
     margin-top: 25px; }
     .header .header-nav span {
       margin-left: 15px; }
+      @media (max-width: 479px) {
+        .header .header-nav span {
+          margin-left: 4px; } }
     .header .header-nav li {
       display: inline-block;
       margin-right: 26px; }
+      @media (max-width: 479px) {
+        .header .header-nav li {
+          margin-right: 4px; } }
       .header .header-nav li a {
         font-size: 16px; }
+        @media (max-width: 479px) {
+          .header .header-nav li a {
+            font-size: 12px; } }
         .header .header-nav li a:hover {
           color: #ef6223; }
 
@@ -266,6 +278,10 @@ input[type="checkbox"] {
   .footer .footer-nav li a {
     padding: 0 10px;
     color: #515a60; }
+    @media (max-width: 479px) {
+      .footer .footer-nav li a {
+        padding: 0 5px;
+        font-size: 10px; } }
   .footer .footer-nav li a:hover {
     color: #ef6223; }
 
@@ -1061,12 +1077,18 @@ input[type='submit'].styler[disabled] {
       @media (max-width: 767px) {
         .inner .inner-block h1 {
           font-size: 60px; } }
+      @media (max-width: 479px) {
+        .inner .inner-block h1 {
+          font-size: 46px; } }
     .inner .inner-block > span {
       font-size: 28px;
       font-weight: 300; }
       @media (max-width: 767px) {
         .inner .inner-block > span {
           font-size: 24px; } }
+      @media (max-width: 479px) {
+        .inner .inner-block > span {
+          font-size: 20px; } }
     .inner .inner-block .inner-form {
       padding: 25px 37px;
       background: rgba(0, 0, 0, 0.45);
@@ -1112,6 +1134,13 @@ input[type='submit'].styler[disabled] {
         @media (max-width: 959px) {
           .inner .inner-block .more-option-form label {
             padding-right: 25px; } }
+        @media (max-width: 767px) {
+          .inner .inner-block .more-option-form label {
+            width: 49%;
+            margin-bottom: 6px; } }
+        @media (max-width: 479px) {
+          .inner .inner-block .more-option-form label {
+            width: 100%; } }
       .inner .inner-block .more-option-form .input-group-title {
         font-size: 16px;
         color: #828283;
@@ -1121,7 +1150,8 @@ input[type='submit'].styler[disabled] {
           .inner .inner-block .more-option-form .input-group-title {
             float: none; } }
         .inner .inner-block .more-option-form .input-group-title h3 {
-          margin-bottom: 8px; }
+          margin-bottom: 8px;
+          font-weight: 600; }
         .inner .inner-block .more-option-form .input-group-title:hover {
           color: #ef6223; }
 
@@ -1211,7 +1241,10 @@ input[type='submit'].styler[disabled] {
     margin: 0 12px; }
     @media (max-width: 767px) {
       .category-btn .btn {
-        margin: 0 3px; } }
+        margin: 3px 3px; } }
+    @media (max-width: 479px) {
+      .category-btn .btn {
+        padding: 0 7px; } }
 
 .counties {
   padding: 60px 0 52px 0;
@@ -1222,6 +1255,10 @@ input[type='submit'].styler[disabled] {
     text-align: center; }
   .counties .orange-btn {
     margin-bottom: 28px; }
+    @media (max-width: 479px) {
+      .counties .orange-btn {
+        padding: 0 8px;
+        margin-bottom: 10px; } }
 
 .search-district {
   overflow: hidden;
@@ -1237,6 +1274,9 @@ input[type='submit'].styler[disabled] {
     @media (max-width: 767px) {
       .search-row .icon {
         margin: 11px 27px; } }
+  @media (max-width: 767px) and (max-width: 479px) {
+    .search-row .icon {
+      margin: 11px 13px; } }
   .search-row h1 {
     font-size: 30px;
     font-weight: 600; }
@@ -1247,6 +1287,9 @@ input[type='submit'].styler[disabled] {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 7px; }
+    @media (max-width: 479px) {
+      .search-row h2 {
+        font-size: 18px; } }
   .search-row a {
     color: #fff; }
   .search-row span {

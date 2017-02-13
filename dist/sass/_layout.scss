@@ -90,6 +90,9 @@ input[type="checkbox"]{
 		font-size: 14px;
 		padding: 0 15px;
 		}
+	@media (max-width: 479px){
+		padding: 0 13px;
+	}
 	&.white-btn{
 		border-color: #fff;
 		color: #fff;
@@ -102,6 +105,7 @@ input[type="checkbox"]{
 		font-size: 16px;
 		border-color: $generalOrange;
 		color: $generalOrange;
+
 		&:hover{
 			color: #fff;
 			background:$generalOrange;
@@ -122,13 +126,22 @@ input[type="checkbox"]{
 		margin-top: 25px;
 		span{
 			margin-left: 15px;
+			@media (max-width: 479px){
+			margin-left: 4px;
+			}
 		}
 		
 		li{
 			display: inline-block;
 			margin-right: 26px;
+			@media (max-width: 479px){
+			margin-right: 4px;
+			}
 			a{
 				font-size: 16px;
+				@media (max-width: 479px){
+				font-size: 12px;
+				}
 				&:hover{
 					color: $generalOrange;
 				}
@@ -149,7 +162,12 @@ input[type="checkbox"]{
 		a{
 			padding: 0 10px;
 			color: #515a60;
+		@media (max-width: 479px){
+			padding: 0 5px;
+			font-size: 10px;
+		}	
 		}
+		
 		a:hover{
 			color: $generalOrange;
 		}
