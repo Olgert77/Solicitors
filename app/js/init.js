@@ -9,11 +9,17 @@ $('.services-slider').slick({
   	{
   		breakpoint: 959,
   		settings:{
-  			slidesToShow: 3,
+  			slidesToShow: 4,
   		}
   	},
+    {
+      breakpoint: 767,
+      settings:{
+        slidesToShow: 3,
+      }
+    },
   	{
-  		breakpoint: 479,
+  		breakpoint: 539,
   		settings:{
   			slidesToShow: 1,
   		}
@@ -31,3 +37,12 @@ $('.services-slider').slick({
 
 });
 })(jQuery);
+
+// sliknav menu
+
+$(function(){
+  $('.header-nav').slicknav({
+    label: '',
+    prependTo: '.header .container',
+  });
+});

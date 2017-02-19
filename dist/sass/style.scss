@@ -213,6 +213,9 @@
 			border-top: 6px solid #90bed5;
 			border-radius: 1px;
 			padding: 20px;
+			p{
+				font-size: 16px;
+			}
 			.title{
 				color: #515a60;
 				font-size: 20px;
@@ -220,6 +223,9 @@
 			}
 			a:hover{
 				font-weight: 700;
+			}
+			.blue-text{
+				font-weight: bold;
 			}
 		}
 	}
@@ -346,7 +352,6 @@
 	}
 .sign-login{ 
 		.title{
-		padding: 40px 0 32px 0;
 		display: inline-block;
 		width: 50%;
 		color: #fff;
@@ -368,7 +373,7 @@
 	}
 		.category-btn{
 		display: inline-block;
-		margin: 20px 0 50px -4px;
+		margin: 20px 0 0 -4px;
 		width: 50%;
 		text-align: right;
 		@media (max-width: 767px){
@@ -376,6 +381,7 @@
       		text-align: center;
       	}
 		.btn {
+			margin: 0;
 			@media (max-width: 959px){
       			margin: 0;
     		}
@@ -421,5 +427,3 @@
 // 		}
 // 	}
 // }
-
- 
